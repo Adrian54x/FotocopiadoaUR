@@ -8,6 +8,7 @@ if (File.Exists(rutaUsuario))
 {
     File.ReadAllText(rutaUsuario);
 }
+
 if (usuario.ContarUsuarios() == 0)
 {
     Console.Clear();
